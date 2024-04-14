@@ -9,7 +9,7 @@ Um ciclo é um caminho que começa e termina no mesmo nó, e cada aresta do cami
 
 ## Exemplo 1:
 
-![exemplo1](ShortestCycle/example/exemplo1.png)
+![](ShortestCycle/example/exemplo1.png)
 
  Entrada: n = 7, arestas = [[0,1],[1,2],[2,0],[3,4],[4,5],[5,6],[6,3] ]
 
@@ -19,7 +19,7 @@ Um ciclo é um caminho que começa e termina no mesmo nó, e cada aresta do cami
 
 ## Exemplo 2:
 
-![exemplo2](ShortestCycle/example/exemplo2.png)
+![](ShortestCycle/example/exemplo2.png)
 
  Entrada: n = 4, arestas = [[0,1],[0,2]]
 

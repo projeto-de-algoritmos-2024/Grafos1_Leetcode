@@ -1,7 +1,8 @@
 import collections
+from typing import List
 
-class Cycle:
-    def shortestCycle(self, N: int, edges: list[list[int]]) -> int:
+class Solution:
+    def findShortestCycle(self, N: int, edges: List[List[int]]) -> int:
         INF = 10 ** 20
         best = INF
 
@@ -17,28 +18,37 @@ class Cycle:
             q = collections.deque()
             q.append(i)
 
+            parents =[-1] * N
+
             while len(q) > 0:
                 now = q.popleft()
 
                 for v in e[now]:
                     if dist[now] + 1 < dist[v]:
                         dist[v] = dist[now] + 1
+                        parents[v] = now
                         q.append(v)
                     else:
-                        best = min(best, dist[v] + dist[now] + 1)
+                        if parents[v] != now and parents[now] != v:
+                            best = min(best, dist[v] + dist[now] + 1)
 
-        return best if best != INF else -1
+        if best >= INF: 
+            return -1
+        
+        return best
+    
+n = 7
+arestas = [[0, 1], [1, 2], [2, 0], [3, 4], [4, 5], [5, 6], [6, 3]]
 
-# Testes
-if __name__ == "__main__":
-    cycle = Cycle()
-    
-    # Teste 1
-    N1 = 7
-    edges1 = [[0,1],[1,2],[2,0],[3,4],[4,5],[5,6],[6,3]]
-    print(cycle.shortestCycle(N1, edges1))  # Saída esperada: 3
-    
-    # Teste 2
-    N2 = 5
-    edges2 = [[0,1],[1,2],[2,3],[3,4],[4,0]]
-    print(cycle.shortestCycle(N2, edges2))  # Saída esperada: 4
+sol = Solution()
+resultado = sol.findShortestCycle(n, arestas)
+
+print("Saída:", resultado)
+
+n2 = 4
+arestas2 = [[0,1],[0,2]]
+
+sol2 = Solution()
+resultado2 = sol2.findShortestCycle(n2, arestas2)
+
+print("Saída:", resultado2)

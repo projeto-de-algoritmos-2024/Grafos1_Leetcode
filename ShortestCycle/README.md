@@ -9,7 +9,7 @@ Um ciclo é um caminho que começa e termina no mesmo nó, e cada aresta do cami
 
 ## Exemplo 1:
 
-![](https://raw.githubusercontent.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/main/assets/exemplo1.jpg)<br>
+![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/exemplo1.png)<br>
 ```
 
  Entrada: n = 7, arestas = [[0,1],[1,2],[2,0],[3,4],[4,5],[5,6],[6,3] ]
@@ -21,7 +21,7 @@ Um ciclo é um caminho que começa e termina no mesmo nó, e cada aresta do cami
 
 ## Exemplo 2:
 
-![](https://raw.githubusercontent.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/main/assets/exemplo2.jpg)<br>
+![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/exemplo2.png)<br>
 ```
 
  Entrada: n = 4, arestas = [[0,1],[0,2]]

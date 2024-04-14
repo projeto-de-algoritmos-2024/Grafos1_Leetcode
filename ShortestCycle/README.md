@@ -9,23 +9,27 @@ Um ciclo é um caminho que começa e termina no mesmo nó, e cada aresta do cami
 
 ## Exemplo 1:
 
-![](ShortestCycle/example/exemplo1.png)
+![](https://raw.githubusercontent.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/main/assets/exemplo1.jpg)<br>
+```
 
  Entrada: n = 7, arestas = [[0,1],[1,2],[2,0],[3,4],[4,5],[5,6],[6,3] ]
 
  Saída: 3
  
  Explicação: O ciclo com o menor comprimento é: 0 -> 1 -> 2 -> 0 
+```
 
 ## Exemplo 2:
 
-![](ShortestCycle/example/exemplo2.png)
+![](https://raw.githubusercontent.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/main/assets/exemplo2.jpg)<br>
+```
 
  Entrada: n = 4, arestas = [[0,1],[0,2]]
 
  Saída: -1
  
  Explicação: Não há ciclos neste gráfico.
+```
 
 ## Restrições:
 

@@ -11,18 +11,38 @@
 | 21/1061331  |  Alana Gabriele Amorim Silva |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Este projeto tem como objetivo resolver questões do LeetCode utilizando a linguagem de programação Python. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+### [785. Is Graph Bipartite?](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/GraphBipartite/README.md) 
+
+Dificuldade: média
+
+Caso 1:
+
+![](https://raw.githubusercontent.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/main/assets/test1.jpg)<br>
+
+
+### [2608. Shortest Cycle in a Graph](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/ShortestCycle/README.md)
+
+Difculdade: difícil
+
+Caso 1:
+
+![](https://raw.githubusercontent.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/main/assets/test2.jpg)<br>
+
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
+**Linguagem**: python3 <br>
 **Framework**: (caso exista)<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+
+```
+python3 "nome-do-arquivo"
+```
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.

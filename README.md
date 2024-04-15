@@ -1,101 +1,74 @@
-
-# Leetcode
-
-**Número da Lista**: 1<br>
-**Conteúdo da Disciplina**: Grafos 1<br>
-
-## Alunos
-# Leetcode
+# Execícios do Leetcode
 
 **Número da Lista**: 1<br>
 **Conteúdo da Disciplina**: Grafos 1<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 21/1061832 |  Harleny Angéllica Araújo de Sousa |
-| 21/1061331  |  Alana Gabriele Amorim Silva |
 
-## Sobre 
-Este projeto tem como objetivo resolver questões do LeetCode utilizando a linguagem de programação Python. 
+| Matrícula | Aluno                             |
+| --------- | --------------------------------- |
+| 211061832 | Harleny Angéllica Araújo de Sousa |
+| 211061331 | Alana Gabriele Amorim Silva       |
+
+## Sobre
+
+Este projeto tem como objetivo resolver questões do [LeetCode](https://leetcode.com/problemset/?search=graph&page=1&sorting=W3t9XQ%3D%3D) sobre grafos utilizando a linguagem de programação Python.
+
+## Questões
+
+| Nome                                                                                                                                                                | Nível   | Vídeo    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | -------- |
+| [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/description/)                                                                           | Média   | [Link]() |
+| [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | Média   | [Link]() |
+| [2608. Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/description/)                                                             | Difícil | [Link]() |
+| [2876. Count Visited Nodes in a Directed Graph](https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/description/)                                 | Difícil | [Link]() |
 
 ## Screenshots
 
-### [785. Is Graph Bipartite?](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/GraphBipartite/README.md) 
-
-Dificuldade: média
+### [785. Is Graph Bipartite?](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/GraphBipartite/README.md)
 
 Caso 1:
 
 ![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/test2.png)<br>
 
+### [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/CountUnreachablePairsNodesUndirectedGraph/README.md)
+
+Caso 1:
+
+![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/2316-test1.png)<br>
+
+Caso 2:
+
+![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/2316-test2.png)<br>
 
 ### [2608. Shortest Cycle in a Graph](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/ShortestCycle/README.md)
-
-Difculdade: difícil
 
 Caso 1:
 
 ![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/test1.png)<br>
 
-## Instalação 
-**Linguagem**: python3 <br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+[2876. Count Visited Nodes in a Directed Graph](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/CountVisitedNodesDirectedGraph/README.md)
 
-## Uso 
+Caso 1:
+
+![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/2876-test1.png)<br>
+
+Caso 2:
+
+![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/2876-test2.png)<br>
+
+## Instalação
+
+**Linguagem**: Python3 <br>
+
+- Necessário ter o Python instalado.
+
+## Uso
 
 ```
 python3 "nome-do-arquivo"
 ```
 
-## Outros 
+## Outros
+
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
-|Matrícula | Aluno |
-| -- | -- |
-| 21/1061832 |  Harleny Angéllica Araújo de Sousa |
-| 21/1061331  |  Alana Gabriele Amorim Silva |
-
-## Sobre 
-Este projeto tem como objetivo resolver questões do LeetCode utilizando a linguagem de programação Python. 
-
-## Screenshots
-
-### [785. Is Graph Bipartite?](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/GraphBipartite/README.md) 
-
-Dificuldade: média
-
-Caso 1:
-
-![](https://raw.githubusercontent.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/main/assets/test1.jpg)<br>
-
-
-### [2608. Shortest Cycle in a Graph](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/ShortestCycle/README.md)
-
-Difculdade: difícil
-
-Caso 1:
-
-![](https://raw.githubusercontent.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/main/assets/test2.jpg)<br>
-
-
-## Instalação 
-**Linguagem**: python3 <br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-
-## Uso 
-
-```
-python3 "nome-do-arquivo"
-```
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-

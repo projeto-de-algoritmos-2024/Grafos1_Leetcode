@@ -1,5 +1,5 @@
 class Solution:
-    def countPairs(self, N: int, edges):
+    def countPairs(self, N, edges):
         parent = [i for i in range(N)]
 
         def find(x):

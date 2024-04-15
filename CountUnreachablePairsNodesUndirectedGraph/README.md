@@ -6,7 +6,7 @@ Return the number of pairs of different nodes that are unreachable from each oth
 
 # Example 1:
 
-![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/2316-exemplo1.jpg)<br>
+![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/2316-exemplo1.png)<br>
 
 ```
 Input: n = 3, edges = [[0,1],[0,2],[1,2]]
@@ -16,7 +16,7 @@ Explanation: There are no pairs of nodes that are unreachable from each other. T
 
 # Example 2:
 
-![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/2316-exemplo2.jpg)<br>
+![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/2316-exemplo2.png)<br>
 
 ```
 Input: n = 7, edges = [[0,2],[0,5],[2,4],[1,6],[5,4]]

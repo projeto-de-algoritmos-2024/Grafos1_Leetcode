@@ -11,7 +11,7 @@ Return an array `answer` where `answer[i]` is the number of different nodes that
 
 # Example 1:
 
-![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/2876-exemplo1.jpg)<br>
+![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/2876-exemplo1.png)<br>
 
 ```
 Input: edges = [1,2,0,0]
@@ -25,7 +25,7 @@ Explanation: We perform the process starting from each node in the following way
 
 # Example 2:
 
-![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/2876-exemplo2.jpg)<br>
+![](https://github.com/projeto-de-algoritmos-2024/Grafos1_Leetcode/blob/main/assets/2876-exemplo2.png)<br>
 
 ```
 Input: edges = [1,2,3,4,0]

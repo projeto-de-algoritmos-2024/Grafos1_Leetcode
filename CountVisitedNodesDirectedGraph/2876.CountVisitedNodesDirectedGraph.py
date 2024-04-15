@@ -23,10 +23,12 @@ class Solucao:
 
             if distancia[proximo] < distancia[i] + 1:
                 contador[i] = contador[proximo]
+                distancia[i] = distancia[proximo]   #ter certeza que continua no ciclo
             else:
                 contador[i] = contador[proximo] + 1
         elif visitados[proximo] == 1:
             contador[i] = distancia[i] + 1 - distancia[proximo]
+            distancia[i] = distancia[proximo] #ter certeza que continua no ciclo
         else:
             contador[i] = contador[proximo] + 1
 

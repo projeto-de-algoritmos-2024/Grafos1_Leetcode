@@ -3,50 +3,48 @@ from typing import List
 class UF:
     
     def __init__(self, n):
-        self.parent = list(range(n))
-        self.rank = [1] * n
+        self.parent = list(range(n)) #inicializa, cada nó cé seu proprio pai
+        self.rank = [1] * n #inicialmente com 1 
         
     def find(self, n):
-        while n != self.parent[n]:
-            self.parent[n] = self.parent[self.parent[n]]
-            n = self.parent[n]
-        return n
+        while n != self.parent[n]: # enquanto não for a raiz do conjunto
+            self.parent[n] = self.parent[self.parent[n]] # define o pai do nó como avo, e reduz a altura da arvore
+            n = self.parent[n] # atualiza
+        return n # retorna a raiz
     
     def union(self, p, q):
-        root_p = self.find(p)
+        root_p = self.find(p) #encontra a raiz do conjunto ao qual o elemento p pertence
         root_q = self.find(q)
-        if root_p == root_q:
+        if root_p == root_q: # verifica se já pertence ao mesmo conjunto
             return
-        if self.rank[root_p] < self.rank[root_q]:
-            self.parent[root_p] = root_q
-        elif self.rank[root_p] > self.rank[root_q]:
-            self.parent[root_q] = root_p
-        else:
-            self.parent[root_q] = root_p
-            self.rank[root_p] += 1
+        if self.rank[root_p] < self.rank[root_q]: # se o conjunto p for menor que q
+            self.parent[root_p] = root_q # une 
+        else: # se os conjuntos forem iguais 
+            self.parent[root_q] = root_p # une
+            self.rank[root_p] += 1 #incrementa a p
     
     def connected(self, p, q):
-        return self.find(p) == self.find(q)
+        return self.find(p) == self.find(q) # verifca se ambos estão no mesmo conjunto
     
     
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
-        n = len(graph)
-        uf = UF(n)
+        n = len(graph) # número de nós
+        uf = UF(n) 
         colors = {}  # armazena as cores dos nós
         
         for i in range(n):
-            if i not in colors:  # Se o nó não foi colorido ainda, colora-se
-                colors[i] = 0  # Define a cor inicial para o nó como 0
-                stack = [i]  # Começa uma pilha com o nó i
+            if i not in colors:  # se o nó não foi colorido ainda, colora-se
+                colors[i] = 0  
+                stack = [i]  # começa uma pilha com o nó i
                 
                 while stack:
-                    node = stack.pop()  # Pega o último nó da pilha
-                    for neighbor in graph[node]:  # Para cada vizinho do nó
-                        if neighbor not in colors:  # Se o vizinho ainda não foi colorido
-                            colors[neighbor] = 1 - colors[node]  # Atribui-se uma cor diferente
-                            stack.append(neighbor)  # Adiciona o vizinho à pilha
-                        elif colors[neighbor] == colors[node]:  # Se o vizinho tem a mesma cor que o nó atual
+                    node = stack.pop()  # pega o último nó da pilha
+                    for neighbor in graph[node]:  # para cada vizinho do nó
+                        if neighbor not in colors:  # se o vizinho ainda não foi colorido
+                            colors[neighbor] = 1 - colors[node]  # coloere uma cor diferente
+                            stack.append(neighbor)  # adiciona o vizinho à pilha
+                        elif colors[neighbor] == colors[node]:  # se o vizinho tem a mesma cor que o nó atual
                             return False  # O grafo não é bipartido
         return True  # o grafo é bipartido
 

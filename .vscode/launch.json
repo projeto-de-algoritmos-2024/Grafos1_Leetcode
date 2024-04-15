@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/alana/Documents/UNB/6Semestre/PA/trabalhos/Grafos1_Leetcode/CountVisitedNodesDirectedGraph",
+      "program": "/Users/alana/Documents/UNB/6Semestre/PA/trabalhos/Grafos1_Leetcode/CountVisitedNodesDirectedGraph/build/Debug/outDebug"
+    }
+  ]
+}

@@ -17,13 +17,16 @@
 Este projeto tem como objetivo resolver questões do [LeetCode](https://leetcode.com/problemset/?search=graph&page=1&sorting=W3t9XQ%3D%3D) sobre grafos utilizando a linguagem de programação Python. Abaixo, estão listadas as questões selecionadas, com seus respectivos níveis de dificuldade e vídeos explicativos da resolução.
 
 ## Questões
+| Nome                                                                                                                                                                | Nível   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/description/)                                                                           | Média   |
+| [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | Média   |
+| [2608. Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/description/)                                                             | Difícil |
+| [2876. Count Visited Nodes in a Directed Graph](https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/description/)                                 | Difícil |
 
-| Nome                                                                                                                                                                | Nível   | Vídeo                                                                                                                                                                                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/description/)                                                                           | Média   | [Link](https://unbbr.sharepoint.com/:v:/s/PA98/EZ95fxUrw09Dpe-bwhm-dIkB8kbEe9JlbE2Qq6awMkr99A?e=76cJ4u&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | Média   | [Link](https://unbbr.sharepoint.com/:v:/s/PA98/ETkkVY5rkJJIrPA56szRYcUBdlei7x8ViYPA_ND7PCLZRA?e=AeUlUH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| [2608. Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/description/)                                                             | Difícil | [Link](https://unbbr.sharepoint.com/:v:/s/PA98/ERT3XmhwiMBCpwKwQiuqS2QBxfWeyl220WBSiGzrlOkXvw?e=hDh726&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| [2876. Count Visited Nodes in a Directed Graph](https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/description/)                                 | Difícil | [Link](https://unbbr.sharepoint.com/:v:/s/PA98/EWwJOsfr_9BBj_Fh7j861dUBpgesYgmuVOzlN_6Wp7Xkyg?e=4U7Yo9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+## Vídeo
+
+[Vídeo aqui](https://youtu.be/TPC6owCAhp0)
 
 ## Screenshots
 
